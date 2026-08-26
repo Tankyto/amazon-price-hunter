@@ -76,6 +76,42 @@ footer {
   color: #666;
 }
 
+.guide-section {
+  margin-top: 50px;
+}
+
+.guide-link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  height: 100%;
+}
+
+.guide-link .card {
+  height: 100%;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.guide-link .card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 20px rgba(0,0,0,.12);
+}
+
+.guide-link h3 {
+  color: #232f3e;
+}
+
+.guide-link p {
+  color: #555;
+}
+
+.guide-number {
+  font-size: 13px;
+  font-weight: bold;
+  color: #ff9900;
+  margin-bottom: 8px;
+}
+
 @media (max-width: 650px) {
   main {
     margin: 20px 12px;
